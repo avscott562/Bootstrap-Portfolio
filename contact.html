@@ -21,32 +21,28 @@
                 </div>
             </header> 
     
-            <div class="container">
+            <div class="container mb-5">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <h2>Contact</h2>
                     </div>
                 </div>
                 <hr>
-                <div class="mainContent">
-                    <div id="contactName">
-                        <p>Name</p>
-                        <input class="nameBox" type="text" placeholder="Jane Doe">
+                <form>
+                    <div class="form-group">
+                        <label for="userName">Name</label>
+                        <input type="text" class="form-control" id="userName" placeholder="Jane Doe">
                     </div>
-                    <br>
-                    <div id="contactEmail">
-                        <p>Email</p>
-                        <input class="emailBox" type="email" placeholder="example@gmail.com">
+                    <div class="form-group">
+                        <label for="userEmail">Email</label>
+                        <input type="email" class="form-control" id="userEmail" placeholder="example@gmail.com">
                     </div>
-                    <br>
-                    <div id="contactMessage">
-                        <p>Message</p>
-                        <input class="messageBox" type="text" maxlength="500" placeholder="Message not to exceed 500 characters.">
+                    <div class="form-group">
+                        <label for="usrMsg">Message</label>
+                        <textarea class="form-control" name="userMsg" id="usrMsg" cols="12" rows="5"></textarea>
                     </div>
-                    <button id="submit" class="btn btn-info">Submit</button>
-                </div>
-            </div>
-            <div class="push"></div>
+                    <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+                </form>
         </div>
 
         <footer class="footer mt-auto py-3 text-center">Copyright</footer>
