@@ -10,10 +10,10 @@
 
     <body>
         <div class="all">
-            <header class="header">
-                <div class="headerContent">
-                    <h1 class="name">Alicia Scott</h1>
-                    <nav class="nav justify-content-center">
+            <header class="headerContent mb-5">
+                <div class="navbar sticky-top">
+                    <h1 class="name p-3">Alicia Scott</h1>
+                    <nav class="nav justify-content-end">
                         <a class="nav-link" href="index.html">About</a> |
                         <a class="nav-link" href="portfolio.html">Portfolio</a> |
                         <a class="nav-link active" href="contact.html">Contact</a>
@@ -21,8 +21,17 @@
                 </div>
             </header> 
     
-            <section class="main">
-                <h2>Contact</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2>Contact</h2>
+                    </div>
+                </div>
                 <hr>
                 <div class="mainContent">
                     <div id="contactName">
@@ -39,12 +48,12 @@
                         <p>Message</p>
                         <input class="messageBox" type="text" maxlength="500" placeholder="Message not to exceed 500 characters.">
                     </div>
-                    <input id="submit" type="submit" value="Submit">
+                    <button id="submit" class="btn btn-info">Submit</button>
                 </div>
-            </section>
+            </div>
             <div class="push"></div>
         </div>
 
-        <footer>Copyright</footer>
+        <footer class="footer mt-auto py-3 text-center">Copyright</footer>
     </body>
 </html>
