@@ -35,10 +35,17 @@ h2 {
     background-color: black !important;
 }
 
+.project {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
 h4 {
     z-index: 1 !important;
-    bottom: 7px !important;
+    bottom: 60px !important;
     margin: 0 !important;
+    padding: 15px 0;
     width: 54% !important;
 }
 
